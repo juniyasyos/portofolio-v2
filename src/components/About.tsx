@@ -47,8 +47,8 @@ export default function About() {
         {/* Hero / Hook */}
         <div className="space-y-3 max-w-3xl">
           <p className="text-sm italic text-neutral-700 leading-relaxed">
-            “Bukan sekadar membuat sistem berjalan, tapi memastikan tetap stabil,
-            terstruktur, dan siap berkembang.”
+            “Sistem yang baik bukan hanya berjalan hari ini,
+            tapi tetap stabil, terstruktur, dan siap berkembang di masa depan.”
           </p>
 
           <Paragraph className="text-neutral-600">
