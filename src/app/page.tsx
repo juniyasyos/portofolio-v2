@@ -15,7 +15,7 @@ export default function Home() {
       </Heading>
 
       <Paragraph className="max-w-xl mt-4">
-        Saya lebih sering bekerja di balik sistem — merancang arsitektur,
+        Saya lebih sering bekerja di balik sistem seperti merancang arsitektur,
         merapikan alur yang kompleks, dan membangun sistem yang siap digunakan dalam operasional nyata.
       </Paragraph>
 

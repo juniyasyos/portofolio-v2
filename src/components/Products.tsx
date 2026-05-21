@@ -14,7 +14,7 @@ export const Products = () => {
       <div className="grid grid-cols-1  gap-10">
         {products.map((product: Product, idx: number) => (
           <motion.div
-            key={product.href}
+            key={product.slug ?? product.href ?? idx}
             initial={{
               opacity: 0,
               x: -50,
@@ -27,7 +27,6 @@ export const Products = () => {
           >
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}
-              key={product.href}
               className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
             >
               <Image

@@ -99,22 +99,70 @@ export const products = [
     href: "#",
     title: "SP-IKP",
     description:
-      "Sistem pelaporan insiden keselamatan pasien untuk membantu pencatatan dan evaluasi kejadian secara lebih terorganisir.",
+      "Sistem pelaporan insiden keselamatan pasien yang membantu pencatatan, investigasi, dan evaluasi insiden secara terstruktur dan siap audit.",
     thumbnail: ikp1,
-    images: [ikp1, ikp2, ikp3, ikp4, ikp5, ikp6, ikp7, ikp8,  ikp9, ikp10],
-    stack: ["Laravel", "Filament v4", "livewire"],
+    images: [ikp1, ikp2, ikp3, ikp4, ikp5, ikp6, ikp7, ikp8, ikp9, ikp10],
+    stack: ["Laravel", "Filament v4", "Livewire"],
     slug: "sp-ikp",
     content: (
-      <div>
-        <p>
-          SP-IKP digunakan untuk mencatat dan mengelola laporan insiden
-          keselamatan pasien secara terpusat. Sistem ini membantu memastikan
-          setiap kejadian terdokumentasi dengan baik dan dapat ditindaklanjuti.
-        </p>
-        <p>
-          Dengan pendekatan yang terstruktur, SP-IKP memudahkan proses evaluasi
-          dan pembelajaran dari setiap insiden yang terjadi.
-        </p>
+      <div className="space-y-6">
+
+        {/* Overview */}
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Overview</h3>
+          <p>
+            SP-IKP membantu rumah sakit dalam mengelola laporan insiden keselamatan pasien
+            secara terpusat dan terdokumentasi dengan baik. Setiap kejadian tidak hanya dicatat,
+            tetapi juga dianalisis untuk memastikan adanya tindak lanjut yang jelas dan terukur.
+          </p>
+        </div>
+
+        {/* Key Features */}
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Key Features</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>📝 Pelaporan insiden terstruktur (KTD, KNC, KPC, dll)</li>
+            <li>🔍 Investigasi & analisis penyebab insiden</li>
+            <li>📊 Dashboard monitoring kejadian</li>
+            <li>📂 Riwayat laporan & tracking tindak lanjut</li>
+            <li>📄 Export laporan (PDF / Excel)</li>
+            <li>🔐 Role-based access control (RBAC)</li>
+            <li>⚡ Input dan update data tanpa reload (Livewire)</li>
+          </ul>
+        </div>
+
+        {/* Problems Solved */}
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Problems Solved</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Pencatatan insiden yang sebelumnya tidak terstandarisasi</li>
+            <li>Kesulitan tracking tindak lanjut dari setiap kejadian</li>
+            <li>Data insiden tersebar dan sulit dianalisis</li>
+            <li>Keterlambatan pelaporan dan evaluasi</li>
+          </ul>
+        </div>
+
+        {/* Impact */}
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Impact</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Pelaporan insiden menjadi lebih konsisten dan terdokumentasi</li>
+            <li>Proses investigasi lebih terarah</li>
+            <li>Peningkatan budaya keselamatan pasien</li>
+            <li>Data lebih siap untuk kebutuhan audit dan akreditasi</li>
+          </ul>
+        </div>
+
+        {/* Concept */}
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Concept</h3>
+          <p>
+            SP-IKP dibangun dengan pendekatan sistem terpusat dan berbasis alur kerja,
+            memastikan setiap insiden memiliki lifecycle yang jelas mulai dari pelaporan,
+            investigasi, hingga penyelesaian.
+          </p>
+        </div>
+
       </div>
     ),
   },

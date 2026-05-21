@@ -90,7 +90,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         {product?.content}
       </div>
 
-      {/* CTA */}
+      {/* CTA
       <a
         href={product.href}
         target="__blank"
@@ -113,7 +113,7 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           <path d="M13 18l6 -6"></path>
           <path d="M13 6l6 6"></path>
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 };

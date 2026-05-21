@@ -5,6 +5,8 @@ import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
 import { baseTitle, siteDescription } from "@/constants/site";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: baseTitle,
   description: siteDescription,
